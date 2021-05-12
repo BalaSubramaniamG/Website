@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("/home/balasubramaniamg/Desktop/Code/Bala Website/Website/images/wallpaper.jpg") no-repeat center;
+    background: url("wallpaper.jpg") no-repeat center;
     height: 100vh;
     color: rgb(255, 255, 255);
     min-height: 500px;
