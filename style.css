@@ -324,7 +324,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .css::before{
-    width: 100%;
+    width: 75%;
 }
 .skills-content .right .js::before{
     width: 90%;
