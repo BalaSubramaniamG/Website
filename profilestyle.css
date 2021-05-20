@@ -1,0 +1,104 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+	min-height: 100vh;
+	display: flex; justify-content: center;
+	align-items: center;
+	background-color: rgb(8, 8, 8);
+	font-family: 'Poppins', sans-serif;
+	background: url("wallpaper.jpg") no-repeat center; 
+}
+
+.card{
+	width: 320px;
+	background-color: #000000;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.card-header{
+	padding: 35px 0;
+	background-image: linear-gradient(60deg,#000000,#222121);
+}
+
+.card-header img{
+	width: 120px; height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card-body{
+	color: #565656;
+	padding:35px;
+}
+
+.card-body h2{
+	 font-size: 24px;
+}
+
+.card-body .username{
+	font-size: 12px; color: #030303;
+}
+
+.card-body .about{ margin-bottom: 30px; }
+ 
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+.social-media-list{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-media-list li {
+    width: 50px; height: 50px;
+    display: grid; place-items: center;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+} 
+.social-media-list li:not(:last-child){
+    margin-right: 15px;
+}
+.social-media-list li:hover{background-color: #111;}
+.social-media-list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.social-media-list li:hover a {color:rgb(228, 211, 211);}
+
+.links-container {list-style: none;}
+
+.links-container:not(:last-child){
+    margin-right: 25px;
+}
+.links-container h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.links-container li {margin-top: 20px;}
+.links-container a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.links-container li:hover a {color: rgb(255, 255, 255);}
+
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	padding: 16px 48px;
+	background-image: linear-gradient(60deg,#000000,#1f1c1c);
+	color: #fff;
+	border-radius: 100px;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+}
+
+.card-body .btn:hover{ opacity: 0.8; }
